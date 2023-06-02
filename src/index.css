@@ -1,21 +1,5 @@
-:root {
-  font-family: 'Istok Web', sans-serif;
-  line-height: 1;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: #6A536A;
-  background-color: #FFFCF3;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-body{
+:root{
+  display: flex;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 0%;
 }

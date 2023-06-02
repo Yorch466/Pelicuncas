@@ -1,16 +1,17 @@
 .serch{
     margin: 10px;
-    /* width: 320px; */
+    width: 400px;
     height: 47px;
     border: 1px solid #6A536A;
     border-radius: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .info{
-    /* font-family: 'Istok Web'; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

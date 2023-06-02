@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 425px;
+}
+
+.miau {
+  display: flex;
+  justify-content: "space-between";
+  flex-wrap: "wrap";
+  position: relative;
+  width: 425px;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-container {
+    width: 425px;
+}
+
+.movie-container h2 {
+  margin-bottom: 100px;
+  padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: Bold;
+  font-size: 14px;
+  text-align: start;
+}
+
+
+
+.movie-poster {
+  height: 121px;
+  width: 96px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
