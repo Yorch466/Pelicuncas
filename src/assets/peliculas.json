@@ -1,7 +1,7 @@
 {
     "id": 1,
-    "movei-name": "John Wick 4",
-    "gender": ["Action", "Crime", "Thriller"],
-    "imgsrc": "/static/image/portada.jpg",
-    "resume": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes."
+    "movie-name": "John Wick 4",
+    "gender": ["Action", "Adventure", "Science Fiction"],
+    "imgsrc": "/static/image/Spider-Man_3_Poster_2.png",
+    "resume": "Spider-Man 3 is a 2007 American superhero film based on the Marvel Comics character Spider-Man. It was directed by Sam Raimi from a screenplay by Raimi, his older brother Ivan and Alvin Sargent. It is the final installment in Raimi's Spider-Man trilogy, and the sequel to Spider-Man (2002) and Spider-Man 2 (2004)."
 }

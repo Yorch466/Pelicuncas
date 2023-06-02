@@ -2,31 +2,31 @@
     {
         "id": 1,
         "imgsrc": "/static/image/1ro.jpg",
-        "name": "Marko Zaror Chidi"
+        "name": "Tobey Maguire"
     },
 
     {
         "id": 2,
         "imgsrc": "/static/image/2do.jpg",
-        "name": "Bill Skargs"
+        "name": "Kirsten Dunst"
     },
 
     {
         "id": 3,
         "imgsrc": "/static/image/3ro.jpg",
-        "name": "Keanu Reeves Jonh Wick"
+        "name": "James Franco"
     },
 
     {
         "id": 4,
         "imgsrc": "/static/image/4to.jpg",
-        "name": "Hiroyuki"
+        "name": "J.K. Simmons"
     },
 
     {
         "id": 5,
         "imgsrc": "/static/image/5to.jpg",
-        "name": "Brahim Chad Thug 1"
+        "name": "Thomas Haden Church"
     }
 
 ]

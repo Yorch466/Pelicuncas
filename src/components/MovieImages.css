@@ -29,11 +29,9 @@ body {
   text-align: start;
 }
 
-
-
 .movie-poster {
-  height: 121px;
   width: 96px;
-  margin-left: 15px;
+  height: 121px;
   border-radius: 10px;
+  margin-left: 15px;
 }

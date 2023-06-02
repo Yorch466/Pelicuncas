@@ -3,7 +3,6 @@ import "./App.css";
 import { TopCastContainer } from "./components/TopCastContainer";
 import { BookingButton } from "./components/BookingButton";
 import { useEffect, useState } from "react";
-import Home from "./screens/Home";
 import { getMovies } from "./services/movies";
 
 function App() {
@@ -27,16 +26,16 @@ function App() {
   //   fetchData()
   // },[]);
 
-  const [peli, setPeli] = useState("");
+/*   const [peli, setPeli] = useState("");
   useEffect(() => {
     getMovies("Spider Man").then((data) => setPeli(data))
-  }, []);
+  }, []); */
 
   return (
     <div className="App">
-      <MovieMain peli={peli} />
+      <MovieMain/>
 
-      <TopCastContainer pelis={peli}/>
+      <TopCastContainer/>
 
       <BookingButton />
     </div>

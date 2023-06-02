@@ -1,21 +1,16 @@
-import React from 'react'
-import { Gender } from './Gender'
-import movie from '../assets/peliculas.json'
-import './MovieMain.css'
+import React from "react";
+import { Gender } from "./Gender";
+import movie from "../assets/peliculas.json";
+import "./MovieMain.css";
 
-export const MovieMain = ({peli}) => {
-
+export const MovieMain = () => {
   return (
-    <div className='move-main-container'>
-      <img src={peli.Poster} alt="" />
-      {/* <img src={movie.imgsrc} alt="" /> */}
-      {/* <img src={dogs[0]?.url} alt="" /> */}
-      <Gender peli={peli}/>
-      <span>
-        {peli.Plot}
-      </span>
+    <div className="movie-main-container">
+      <div className="image">
+        <img src={movie.imgsrc} alt="" />
+      </div>
+      <Gender movie={movie} />
+      <span>{movie.resume}</span>
     </div>
-  )
-}
-
-
+  );
+};

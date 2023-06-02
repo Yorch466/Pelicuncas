@@ -1,19 +1,15 @@
-import React from 'react'
-import { Chip } from './Chip'
-import './Gender.css'
+import React from "react";
+import { Chip } from "./Chip";
+import "./Gender.css";
 
-export const Gender = ({peli}) => {
-  // const movie = props.movie
-  // const gender = movie.gender
-  const gender = peli.Genre ? peli.Genre.split(",") : [];
+export const Gender = ({ movie }) => {
+  /*const movie = props.movie */
+  const gender = movie.gender;
   return (
-    <div className='gender-container'>
-    {
-      gender.map((genero, index) => (
-        <Chip genero = {genero} key = {index}/>
-      ))
-    }
+    <div className="gender-container">
+      {gender.map((genero, index) => (
+        <Chip genero={genero} index={index} />
+      ))}
     </div>
-  )
-}
-
+  );
+};
