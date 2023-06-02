@@ -3,7 +3,7 @@ import { Gender } from "./Gender";
 import movie from "../assets/peliculas.json";
 import "./MovieMain.css";
 
-export const MovieMain = () => {
+export const MovieMain = ({peli}) => {
   return (
     <div className="movie-main-container">
       <div className="image">

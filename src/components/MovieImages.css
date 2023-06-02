@@ -17,6 +17,7 @@ body {
 
 .movie-container {
     width: 425px;
+    overflow: scroll;
 }
 
 .movie-container h2 {

@@ -26,16 +26,16 @@ function App() {
   //   fetchData()
   // },[]);
 
-/*   const [peli, setPeli] = useState("");
+   const [peli, setPeli] = useState("");
   useEffect(() => {
     getMovies("Spider Man").then((data) => setPeli(data))
-  }, []); */
+  }, []); 
 
   return (
     <div className="App">
-      <MovieMain/>
+      <MovieMain peli={peli}/>
 
-      <TopCastContainer/>
+      <TopCastContainer peli={peli}/>
 
       <BookingButton />
     </div>
