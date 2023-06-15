@@ -50,7 +50,6 @@ const Home = () => {
       <MovieImages category="Coming Soon" movies={comingSoonMovies || []}/>
       <MovieImages category="Top Movies" movies={topMovie || []}/>
       <MovieImages category="Action Movies" movies={actionMovies || []}/>
-      <NavigationBar/>
     </div>
   );
 };
